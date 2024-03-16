@@ -10,7 +10,7 @@ namespace BB207HomeWork.lesson5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SASD");
+            Console.WriteLine("SASDanaaa");
         }
     }
 }
