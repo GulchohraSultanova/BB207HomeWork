@@ -1,4 +1,5 @@
-﻿//using System;
+﻿
+//using System;
 //using System.Collections.Generic;
 //using System.Linq;
 //using System.Text;
@@ -6,11 +7,22 @@
 
 //namespace BB207HomeWork.lesson5
 //{
-//    internal class Problem1
+//    internal class Problem2
 //    {
 //        static void Main(string[] args)
 //        {
-//            Console.WriteLine("SASD");
+//            int[] a = { 1, 2, 3, 4, 5, 6 };
+//            ProductElementsOfArray(a);
+
+//        }
+//        public static void ProductElementsOfArray(int[] array)
+//        {
+//            int has = 1;
+//            for (int i = 0; i < array.Length; i++)
+//            {
+//                has *= array[i];
+//            }
+//            Console.WriteLine(has);
 //        }
 //    }
 //}
