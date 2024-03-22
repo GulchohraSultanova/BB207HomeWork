@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace BB207HomeWork.lesson6
@@ -42,7 +43,7 @@ namespace BB207HomeWork.lesson6
                         {
                             name = Console.ReadLine();
 
-                            if (!string.IsNullOrEmpty(name))
+                            if (!string.IsNullOrEmpty(name) && Regex.IsMatch(name, @"^[a-zA-Z]+$"))
                             {
                                 break;
                             }
@@ -54,7 +55,7 @@ namespace BB207HomeWork.lesson6
                             surname = Console.ReadLine();
 
 
-                            if (!string.IsNullOrEmpty(surname))
+                            if (!string.IsNullOrEmpty(surname) && Regex.IsMatch(surname, @"^[a-zA-Z]+$"))
                             {
                                 break;
                             }
@@ -72,7 +73,7 @@ namespace BB207HomeWork.lesson6
                             departmentName = Console.ReadLine();
 
 
-                            if (!string.IsNullOrEmpty(departmentName))
+                            if (!string.IsNullOrEmpty(departmentName) && Regex.IsMatch(departmentName, @"^[a-zA-Z]+$"))
                             {
                                 break;
                             }
