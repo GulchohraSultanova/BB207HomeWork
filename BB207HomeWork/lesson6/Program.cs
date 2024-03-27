@@ -73,7 +73,7 @@ namespace BB207HomeWork.lesson6
                             departmentName = Console.ReadLine();
 
 
-                            if (!string.IsNullOrEmpty(departmentName) && Regex.IsMatch(departmentName, @"^[a-zA-Z]+$"))
+                            if (!string.IsNullOrEmpty(departmentName))
                             {
                                 break;
                             }
